@@ -46,7 +46,7 @@ public class Main {
 				monitor.setPrimary((info.dwFlags & WinUser.MONITORINFOF_PRIMARY) != 0);
 //				System.out.println("Primary? " + (isPrimary ? "yes" : "no"));
 //				System.out.println("Device " + new String(info.szDevice));
-				monitor.setDevice(new String(info.szDevice));
+				monitor.setDevice(new String(info.szDevice).trim());
 				return 1;
 			}
 
@@ -142,7 +142,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		Monitor monitor = getMonitorDetails();
-//		System.out.println(ob + "\n");
+		System.out.println(monitor + "\n");
 		
 		List<Window> allWindows = getWindows();
 //		for(Window w: allWindows) {
