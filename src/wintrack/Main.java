@@ -4,6 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.TimerTask;
 
 import org.json.simple.JSONObject;
 import com.google.gson.Gson;
@@ -25,7 +26,9 @@ import com.sun.jna.platform.win32.WinUser.MONITORINFOEX;
 import db.Monitor;
 import db.Window;
 
-public class Main {
+public class Main extends TimerTask {
+	// JSON Object to hold data of every 3 min
+	static JSONObject json = new JSONObject();
 	
 	static String pretty(JSONObject json) {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
@@ -85,6 +88,8 @@ public class Main {
 //			String res = "[ " + fg + ob.getWinTitle() + " | " + ob.getPID() + " | " + ob.getclass() + " ] [ " + ob.getFilePath() + " ] " + ob.getLocSize() + "\n";
 			ob.setFilePath(win.getFilePath());
 			ob.setWinTitle(win.getTitle());
+			ob.setLocSize(win.getLocAndSize());
+//			System.out.println(ob.getLocSize().toString());
 			result.add(ob);
 		}
 		return result;
@@ -95,7 +100,7 @@ public class Main {
 		JSONObject detail = new JSONObject();
 		JSONObject detail_entry = new JSONObject();
 		// add number of monitors
-		detail.put("Quantity", Monitor.Qty);
+		detail.put("quantity", Monitor.Qty);
 		
 		// add monitor details
 		detail_entry.put("name", mtr.getName());
@@ -118,13 +123,21 @@ public class Main {
 		JSONObject details = new JSONObject();
 		JSONObject detail_entry = new JSONObject();
 		JSONObject active_win = new JSONObject();
+		JSONObject loc = new JSONObject();
 		for (Window w: win) {
 			detail_entry.clear();
+			loc.clear();
 			
 			detail_entry.put("title", w.getWinTitle());
 			detail_entry.put("class", w.getclass());
 			detail_entry.put("file_path", w.getFilePath());
-			detail_entry.put("loc_size", w.getLocSize().toString());
+			
+			loc.put("x", w.getLocSize().x);
+			loc.put("y", w.getLocSize().y);
+			loc.put("height", w.getLocSize().height);
+			loc.put("width", w.getLocSize().width);
+			
+			detail_entry.put("loc_size", loc);
 			
 			if (w.isActive()) {
 				active_win = detail_entry;
@@ -152,7 +165,7 @@ public class Main {
 		return output;
 	}
 	
-	public static void main(String[] args) {
+	public void run() {
 		Monitor monitor = getMonitorDetails();
 //		System.out.println(monitor + "\n");
 		
