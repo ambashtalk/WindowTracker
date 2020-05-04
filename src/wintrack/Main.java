@@ -6,7 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.json.simple.JSONObject;
-
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.sun.jna.Native;
 import com.sun.jna.platform.DesktopWindow;
 import com.sun.jna.platform.WindowUtils;
@@ -25,10 +26,17 @@ import db.Monitor;
 import db.Window;
 
 public class Main {
-
+	
+	static String pretty(JSONObject json) {
+		Gson gson = new GsonBuilder().setPrettyPrinting().create();
+		return gson.toJson(json);
+	}
+	
 	static Monitor getMonitorDetails() {
-		System.out.println("Installed Physical Monitors: " + User32.INSTANCE.GetSystemMetrics(WinUser.SM_CMONITORS));
 		Monitor monitor = new Monitor();
+//		System.out.println("Installed Physical Monitors: " + User32.INSTANCE.GetSystemMetrics(WinUser.SM_CMONITORS));
+		Monitor.Qty = User32.INSTANCE.GetSystemMetrics(WinUser.SM_CMONITORS);
+		
 		User32.INSTANCE.EnumDisplayMonitors(null, null, new MONITORENUMPROC() {
 
 			@Override
@@ -86,12 +94,16 @@ public class Main {
 	static JSONObject getMonitorJson(Monitor mtr) {
 		JSONObject detail = new JSONObject();
 		JSONObject detail_entry = new JSONObject();
+		// add number of monitors
+		detail.put("Quantity", Monitor.Qty);
+		
 		// add monitor details
 		detail_entry.put("name", mtr.getName());
 		detail_entry.put("screen", mtr.getScreen());
 		detail_entry.put("work_area", mtr.getWorkArea());
 		detail_entry.put("device", mtr.getDevice());
 		detail_entry.put("primary", mtr.isPrimary());
+		
 		// Check primary monitor
 		detail.put("details", detail_entry);
 		if (mtr.isPrimary()) {
@@ -142,7 +154,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		Monitor monitor = getMonitorDetails();
-		System.out.println(monitor + "\n");
+//		System.out.println(monitor + "\n");
 		
 		List<Window> allWindows = getWindows();
 //		for(Window w: allWindows) {
@@ -150,9 +162,10 @@ public class Main {
 //		}
 		JSONObject details = new JSONObject();
 		details = getJSON(monitor, allWindows);
+//		System.out.print(pretty(details));
 		
 		try (FileWriter fw = new FileWriter("info.json")) {
-			fw.write(details.toJSONString());
+			fw.write(pretty(details));
 			fw.flush();
 		}
 		catch (IOException e) {

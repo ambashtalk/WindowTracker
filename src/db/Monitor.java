@@ -1,6 +1,7 @@
 package db;
 
 public class Monitor {
+	public static Integer Qty;
 	
 	private String name, screen, work_area, device;
 	private boolean primary;
