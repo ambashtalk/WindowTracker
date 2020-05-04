@@ -23,11 +23,11 @@ public class Monitor {
 	
 	@Override
 	public String toString() {
-		String res = "Name:\t" + this.name + "\n" +
-					 "Screen:\t" + this.screen + "\n" +
+		String res = "Name:\t\t" + this.name + "\n" +
+					 "Screen:\t\t" + this.screen + "\n" +
 					 "Work Area:\t" + this.work_area + "\n" +
 					 "Primary:\t" + this.primary + "\n" +
-					 "Device:\t" + this.device;
+					 "Device:\t\t" + this.device;
 		return res;
 	}
 	
