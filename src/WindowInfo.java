@@ -17,7 +17,7 @@ public class WindowInfo {
 	 * @param args (ignored)
 	 */
 	public static void main(String[] args) {
-
+		 
 		final char[] classText = new char[512];
 
 		HWND hwndActive = User32.INSTANCE.GetForegroundWindow();

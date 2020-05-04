@@ -1,10 +1,19 @@
 package db;
 
 public class Monitor {
-
+	
 	private String name, screen, work_area, device;
 	private boolean primary;
-	Monitor(boolean primary, String name, String screen, String work_area, String device) {
+	
+	public Monitor(){
+		this.name = "nil";
+		this.screen = "nil";
+		this.work_area = "nil";
+		this.device = "nil";
+		this.primary = false;
+	}
+	
+	public Monitor(boolean primary, String name, String screen, String work_area, String device) {
 		this.name = name == null? "default": name;
 		this.screen = screen== null? "default": screen;
 		this.work_area = work_area== null? "default": work_area;
@@ -12,49 +21,59 @@ public class Monitor {
 		this.primary = primary;
 	}
 	
+	@Override
+	public String toString() {
+		String res = "Name:\t" + this.name + "\n" +
+					 "Screen:\t" + this.screen + "\n" +
+					 "Work Area:\t" + this.work_area + "\n" +
+					 "Primary:\t" + this.primary + "\n" +
+					 "Device:\t" + this.device;
+		return res;
+	}
+	
 	//Setter and Getters
 	// Name
-	void setName(String name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 	
-	String getName() {
+	public String getName() {
 		return this.name;
 	}
 	
 	// Screen
-	void setscreen(String screen) {
+	public void setscreen(String screen) {
 		this.screen = screen;
 	}
 	
-	String getScreen() {
+	public String getScreen() {
 		return this.screen;
 	}
 	
 	// Work Area
-	void setWorkArea(String work_area) {
+	public void setWorkArea(String work_area) {
 		this.work_area = work_area;
 	}
 	
-	String getWorkArea() {
+	public String getWorkArea() {
 		return this.work_area;
 	}
 	
 	// Device
-	void setDevice(String device) {
+	public void setDevice(String device) {
 		this.device = device;
 	}
 	
-	String getDevice() {
+	public String getDevice() {
 		return this.device;
 	}
 	
 	// Is Primary Display 
-	void setPrimary(boolean primary) {
+	public void setPrimary(boolean primary) {
 		this.primary = primary;
 	}
 	
-	boolean isPrimary() {
+	public boolean isPrimary() {
 		return this.primary;
 	}
 }
