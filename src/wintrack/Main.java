@@ -1,7 +1,11 @@
 package wintrack;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+
+import org.json.simple.JSONObject;
 
 import com.sun.jna.Native;
 import com.sun.jna.platform.DesktopWindow;
@@ -78,13 +82,81 @@ public class Main {
 		return result;
 	}
 	
+	@SuppressWarnings("unchecked")
+	static JSONObject getMonitorJson(Monitor mtr) {
+		JSONObject detail = new JSONObject();
+		JSONObject detail_entry = new JSONObject();
+		// add monitor details
+		detail_entry.put("name", mtr.getName());
+		detail_entry.put("screen", mtr.getScreen());
+		detail_entry.put("work_area", mtr.getWorkArea());
+		detail_entry.put("device", mtr.getDevice());
+		detail_entry.put("primary", mtr.isPrimary());
+		// Check primary monitor
+		detail.put("details", detail_entry);
+		if (mtr.isPrimary()) {
+			detail.put("primary", detail_entry);
+		}
+		
+		return detail;
+	}
+	
+	@SuppressWarnings("unchecked")
+	static JSONObject getWindowJson(List<Window> win) {
+		JSONObject details = new JSONObject();
+		JSONObject detail_entry = new JSONObject();
+		JSONObject active_win = new JSONObject();
+		for (Window w: win) {
+			detail_entry.clear();
+			
+			detail_entry.put("title", w.getWinTitle());
+			detail_entry.put("class", w.getclass());
+			detail_entry.put("file_path", w.getFilePath());
+			detail_entry.put("loc_size", w.getLocSize().toString());
+			
+			if (w.isActive()) {
+				active_win = detail_entry;
+			}
+			
+			details.put(w.getPID().toString(), detail_entry);
+		}
+		
+		JSONObject output = new JSONObject();
+		output.put("all", details);
+		output.put("active", active_win);
+		
+		return output;
+	}
+	
+	@SuppressWarnings("unchecked")
+	static JSONObject getJSON(Monitor mtr, List<Window> win) {
+		JSONObject mtrDetailsJson = getMonitorJson(mtr);
+		JSONObject winDetailsJson = getWindowJson(win);
+		
+		JSONObject output = new JSONObject();
+		output.put("Monitor", mtrDetailsJson);
+		output.put("Windows", winDetailsJson);
+		
+		return output;
+	}
+	
 	public static void main(String[] args) {
-		Monitor ob = getMonitorDetails();
-		System.out.println(ob + "\n");
+		Monitor monitor = getMonitorDetails();
+//		System.out.println(ob + "\n");
 		
 		List<Window> allWindows = getWindows();
-		for(Window w: allWindows) {
-			System.out.println(w);
+//		for(Window w: allWindows) {
+//			System.out.println(w);
+//		}
+		JSONObject details = new JSONObject();
+		details = getJSON(monitor, allWindows);
+		
+		try (FileWriter fw = new FileWriter("info.json")) {
+			fw.write(details.toJSONString());
+			fw.flush();
+		}
+		catch (IOException e) {
+			e.printStackTrace();
 		}
 	}
 }
