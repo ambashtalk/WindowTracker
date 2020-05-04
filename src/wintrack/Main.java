@@ -2,6 +2,7 @@ package wintrack;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.TimerTask;
@@ -27,8 +28,12 @@ import db.Monitor;
 import db.Window;
 
 public class Main extends TimerTask {
+	
+	// keeping track of time:
+	//when calls reaches 60, means 3 mins have elapsed and time for POST request
+	static int calls = 0;
 	// JSON Object to hold data of every 3 min
-	static JSONObject json = new JSONObject();
+	public static JSONObject json = new JSONObject();
 	
 	static String pretty(JSONObject json) {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
@@ -165,7 +170,13 @@ public class Main extends TimerTask {
 		return output;
 	}
 	
+	@SuppressWarnings("unchecked")
 	public void run() {
+		
+		// Keeping track of calls
+		calls++;
+		System.out.println("This is call number:" + calls);
+		
 		Monitor monitor = getMonitorDetails();
 //		System.out.println(monitor + "\n");
 		
@@ -177,8 +188,12 @@ public class Main extends TimerTask {
 		details = getJSON(monitor, allWindows);
 //		System.out.print(pretty(details));
 		
+		// maintaining a static json object
+		String key = LocalDateTime.now().toString();
+		json.put(key, details);
+		
 		try (FileWriter fw = new FileWriter("info.json")) {
-			fw.write(pretty(details));
+			fw.write(pretty(json));
 			fw.flush();
 		}
 		catch (IOException e) {
