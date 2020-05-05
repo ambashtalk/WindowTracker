@@ -3,6 +3,7 @@ package db;
 import java.awt.Rectangle;
 import java.awt.Dimension;
 
+
 public class Window {
 	private final static Dimension NULL_DIM = new Dimension(30, 30);
 	public final static String MARKER = "***";
@@ -11,7 +12,9 @@ public class Window {
 	private String win_title, _class, file_path;
 	private Rectangle loc_size;
 	private boolean active;
-	
+	private double duration;
+	private long start_time, stop_time;
+
 	public Window() {
 		this.pid =0;
 		this.active = false;
@@ -19,6 +22,7 @@ public class Window {
 		this._class = "";
 		this.file_path = "";
 		this.loc_size = new Rectangle(NULL_DIM);
+		this.duration = 0.0;
 	}
 	
 	public Window(Integer pid, String win_title, String _class, String file_path, Rectangle loc_size, boolean active) {
@@ -87,5 +91,18 @@ public class Window {
 	
 	public boolean isActive() {
 		return this.active;
+	}
+	
+	public double getDuration() {
+		return this.duration;
+	}
+	
+	public void recordStartTime() {
+		this.start_time = System.currentTimeMillis();
+	}
+	
+	public void recordStopTime() {
+		this.stop_time = System.currentTimeMillis();
+		this.duration += (this.stop_time - this.start_time)/(double)1000; // duration in seconds
 	}
 }

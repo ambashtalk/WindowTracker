@@ -28,14 +28,20 @@ import db.Monitor;
 import db.Window;
 
 public class Main extends TimerTask {
-	//limit var: time after which it shoud send a POST request
-	public final long t = 3 * 60 * 1000; // time in milliseconds
+	
+	// limit var: time after which it shoud send a POST request
+	public final long t = 15 * 1000; // time in milliseconds
 	public final long limit = (long) t / TimeIt.period; //limit value of "calls" variable
+	
 	// keeping track of time:
-	//when calls reaches 60, means 3 mins have elapsed and time for POST request
+	// when calls reaches 60, means 3 mins have elapsed and time for POST request
 	static int calls = 0;
+	
 	// JSON Object to hold data of every 3 min
 	public static JSONObject json = new JSONObject();
+	
+	// Store previous active window
+	public static Window prevActiveWin = null;
 	
 	static String pretty(JSONObject json) {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
@@ -79,25 +85,42 @@ public class Main extends TimerTask {
 		List<DesktopWindow> windowsList = WindowUtils.getAllWindows(true);
 		List<Window> result = new ArrayList<Window>();
 		for (DesktopWindow win : windowsList) {
-			Window ob = new Window();
+			Window currWin = new Window();
 			
 			User32.INSTANCE.GetClassName(win.getHWND(), classText, 512);
 //			String wClass = Native.toString(classText);
-			ob.setclass(Native.toString(classText));
+			currWin.setclass(Native.toString(classText));
 			
 //			int pid = User32.INSTANCE.GetWindowThreadProcessId(win.getHWND(), null);
-			ob.setPID(User32.INSTANCE.GetWindowThreadProcessId(win.getHWND(), null));
+			currWin.setPID(User32.INSTANCE.GetWindowThreadProcessId(win.getHWND(), null));
 			
-			ob.setActive(win.getHWND().equals(hwndActive));
+			currWin.setActive(win.getHWND().equals(hwndActive));
+			
+			//set running duration
+			if (currWin.isActive()) {
+				if (prevActiveWin == null) {
+					prevActiveWin = currWin;
+					currWin.recordStartTime();
+				}
+				else {
+					if (prevActiveWin.getPID() != currWin.getPID()) { // it is a new active window
+						prevActiveWin.recordStopTime(); // record active duration of prev window
+						currWin.recordStartTime();
+						prevActiveWin = currWin;
+					}
+				}
+			}
+			
 //			String fg = win.getHWND().equals(hwndActive) ? " *** " : "";
 //			String fg = ob.isActive() ? Window.MARKER : "";
 //			System.out.println("[ " + fg + win.getTitle() + " | " + pid + " | " + wClass + " ] [ " + win.getFilePath() + " ] " + win.getLocAndSize());
 //			String res = "[ " + fg + ob.getWinTitle() + " | " + ob.getPID() + " | " + ob.getclass() + " ] [ " + ob.getFilePath() + " ] " + ob.getLocSize() + "\n";
-			ob.setFilePath(win.getFilePath());
-			ob.setWinTitle(win.getTitle());
-			ob.setLocSize(win.getLocAndSize());
+			currWin.setFilePath(win.getFilePath().toString());
+			currWin.setWinTitle(win.getTitle().toString());
+			currWin.setLocSize(win.getLocAndSize());
+			
 //			System.out.println(ob.getLocSize().toString());
-			result.add(ob);
+			result.add(currWin);
 		}
 		return result;
 	}
@@ -132,12 +155,15 @@ public class Main extends TimerTask {
 		JSONObject active_win = new JSONObject();
 		JSONObject loc = new JSONObject();
 		for (Window w: win) {
+			String s = w.getclass();
+			System.out.println(s);
 			detail_entry.clear();
 			loc.clear();
-			
+//			detail_entry.compute("test", (k,v) -> (v==null) ? w.getclass() : "none");
 			detail_entry.put("title", w.getWinTitle());
 			detail_entry.put("class", w.getclass());
 			detail_entry.put("file_path", w.getFilePath());
+			detail_entry.put("duration", w.getDuration());
 			
 			loc.put("x", w.getLocSize().x);
 			loc.put("y", w.getLocSize().y);

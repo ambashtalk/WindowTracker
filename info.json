@@ -1,5 +1,5 @@
 {
-  "2020-05-05T09:43:45.287904700": {
+  "2020-05-05T16:47:48.709831400": {
     "Monitor": {
       "quantity": 1,
       "details": {
@@ -19,29 +19,8 @@
     },
     "Windows": {
       "all": {
-        "36380": {
-          "file_path": "C:\\Windows\\explorer.exe",
-          "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
-          },
-          "title": "Program Manager",
-          "class": "Progman"
-        },
-        "20156": {
-          "file_path": "C:\\Windows\\explorer.exe",
-          "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
-          },
-          "title": "Program Manager",
-          "class": "Progman"
-        },
         "43760": {
+          "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
@@ -49,10 +28,12 @@
             "y": 0,
             "height": 768
           },
+          "test": "Progman",
           "title": "Program Manager",
           "class": "Progman"
         },
-        "23252": {
+        "45972": {
+          "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
@@ -60,10 +41,12 @@
             "y": 0,
             "height": 768
           },
+          "test": "Progman",
           "title": "Program Manager",
           "class": "Progman"
         },
         "41464": {
+          "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
@@ -71,10 +54,12 @@
             "y": 0,
             "height": 768
           },
+          "test": "Progman",
           "title": "Program Manager",
           "class": "Progman"
         },
         "19112": {
+          "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
@@ -82,32 +67,12 @@
             "y": 0,
             "height": 768
           },
-          "title": "Program Manager",
-          "class": "Progman"
-        },
-        "45828": {
-          "file_path": "C:\\Windows\\explorer.exe",
-          "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
-          },
-          "title": "Program Manager",
-          "class": "Progman"
-        },
-        "46164": {
-          "file_path": "C:\\Windows\\explorer.exe",
-          "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
-          },
+          "test": "Progman",
           "title": "Program Manager",
           "class": "Progman"
         },
         "21208": {
+          "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
@@ -115,10 +80,64 @@
             "y": 0,
             "height": 768
           },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "23832": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "19280": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "31764": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "23252": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
           "title": "Program Manager",
           "class": "Progman"
         },
         "34848": {
+          "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
@@ -126,11 +145,52 @@
             "y": 0,
             "height": 768
           },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "9808": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "12104": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "33748": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
           "title": "Program Manager",
           "class": "Progman"
         }
       },
       "active": {
+        "duration": 0.0,
         "file_path": "C:\\Windows\\explorer.exe",
         "loc_size": {
           "x": 0,
@@ -138,12 +198,13 @@
           "y": 0,
           "height": 768
         },
+        "test": "Progman",
         "title": "Program Manager",
         "class": "Progman"
       }
     }
   },
-  "2020-05-05T09:43:48.287905100": {
+  "2020-05-05T16:47:56.509826300": {
     "Monitor": {
       "quantity": 1,
       "details": {
@@ -163,29 +224,8 @@
     },
     "Windows": {
       "all": {
-        "36380": {
-          "file_path": "C:\\Windows\\explorer.exe",
-          "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
-          },
-          "title": "Program Manager",
-          "class": "Progman"
-        },
-        "20156": {
-          "file_path": "C:\\Windows\\explorer.exe",
-          "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
-          },
-          "title": "Program Manager",
-          "class": "Progman"
-        },
         "43760": {
+          "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
@@ -193,10 +233,12 @@
             "y": 0,
             "height": 768
           },
+          "test": "Progman",
           "title": "Program Manager",
           "class": "Progman"
         },
-        "23252": {
+        "45972": {
+          "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
@@ -204,10 +246,12 @@
             "y": 0,
             "height": 768
           },
+          "test": "Progman",
           "title": "Program Manager",
           "class": "Progman"
         },
         "41464": {
+          "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
@@ -215,10 +259,12 @@
             "y": 0,
             "height": 768
           },
+          "test": "Progman",
           "title": "Program Manager",
           "class": "Progman"
         },
         "19112": {
+          "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
@@ -226,32 +272,12 @@
             "y": 0,
             "height": 768
           },
-          "title": "Program Manager",
-          "class": "Progman"
-        },
-        "45828": {
-          "file_path": "C:\\Windows\\explorer.exe",
-          "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
-          },
-          "title": "Program Manager",
-          "class": "Progman"
-        },
-        "46164": {
-          "file_path": "C:\\Windows\\explorer.exe",
-          "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
-          },
+          "test": "Progman",
           "title": "Program Manager",
           "class": "Progman"
         },
         "21208": {
+          "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
@@ -259,10 +285,64 @@
             "y": 0,
             "height": 768
           },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "23832": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "19280": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "31764": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "23252": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
           "title": "Program Manager",
           "class": "Progman"
         },
         "34848": {
+          "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
@@ -270,11 +350,52 @@
             "y": 0,
             "height": 768
           },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "9808": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "12104": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "33748": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
           "title": "Program Manager",
           "class": "Progman"
         }
       },
       "active": {
+        "duration": 0.0,
         "file_path": "C:\\Windows\\explorer.exe",
         "loc_size": {
           "x": 0,
@@ -282,12 +403,13 @@
           "y": 0,
           "height": 768
         },
+        "test": "Progman",
         "title": "Program Manager",
         "class": "Progman"
       }
     }
   },
-  "2020-05-05T09:43:42.286904300": {
+  "2020-05-05T16:47:59.510829700": {
     "Monitor": {
       "quantity": 1,
       "details": {
@@ -307,29 +429,8 @@
     },
     "Windows": {
       "all": {
-        "36380": {
-          "file_path": "C:\\Windows\\explorer.exe",
-          "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
-          },
-          "title": "Program Manager",
-          "class": "Progman"
-        },
-        "20156": {
-          "file_path": "C:\\Windows\\explorer.exe",
-          "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
-          },
-          "title": "Program Manager",
-          "class": "Progman"
-        },
         "43760": {
+          "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
@@ -337,10 +438,12 @@
             "y": 0,
             "height": 768
           },
+          "test": "Progman",
           "title": "Program Manager",
           "class": "Progman"
         },
-        "23252": {
+        "45972": {
+          "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
@@ -348,10 +451,12 @@
             "y": 0,
             "height": 768
           },
+          "test": "Progman",
           "title": "Program Manager",
           "class": "Progman"
         },
         "41464": {
+          "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
@@ -359,10 +464,12 @@
             "y": 0,
             "height": 768
           },
+          "test": "Progman",
           "title": "Program Manager",
           "class": "Progman"
         },
         "19112": {
+          "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
@@ -370,32 +477,12 @@
             "y": 0,
             "height": 768
           },
-          "title": "Program Manager",
-          "class": "Progman"
-        },
-        "45828": {
-          "file_path": "C:\\Windows\\explorer.exe",
-          "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
-          },
-          "title": "Program Manager",
-          "class": "Progman"
-        },
-        "46164": {
-          "file_path": "C:\\Windows\\explorer.exe",
-          "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
-          },
+          "test": "Progman",
           "title": "Program Manager",
           "class": "Progman"
         },
         "21208": {
+          "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
@@ -403,10 +490,64 @@
             "y": 0,
             "height": 768
           },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "23832": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "19280": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "31764": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "23252": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
           "title": "Program Manager",
           "class": "Progman"
         },
         "34848": {
+          "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
@@ -414,11 +555,52 @@
             "y": 0,
             "height": 768
           },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "9808": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "12104": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "33748": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
           "title": "Program Manager",
           "class": "Progman"
         }
       },
       "active": {
+        "duration": 0.0,
         "file_path": "C:\\Windows\\explorer.exe",
         "loc_size": {
           "x": 0,
@@ -426,6 +608,417 @@
           "y": 0,
           "height": 768
         },
+        "test": "Progman",
+        "title": "Program Manager",
+        "class": "Progman"
+      }
+    }
+  },
+  "2020-05-05T16:47:50.512825500": {
+    "Monitor": {
+      "quantity": 1,
+      "details": {
+        "name": "native@0x10001",
+        "screen": "[(0,0)(1366,768)]",
+        "work_area": "[(0,0)(1366,738)]",
+        "device": "\\\\.\\DISPLAY1",
+        "primary": true
+      },
+      "primary": {
+        "name": "native@0x10001",
+        "screen": "[(0,0)(1366,768)]",
+        "work_area": "[(0,0)(1366,738)]",
+        "device": "\\\\.\\DISPLAY1",
+        "primary": true
+      }
+    },
+    "Windows": {
+      "all": {
+        "43760": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "45972": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "41464": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "19112": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "21208": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "23832": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "19280": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "31764": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "23252": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "34848": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "9808": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "12104": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "33748": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        }
+      },
+      "active": {
+        "duration": 0.0,
+        "file_path": "C:\\Windows\\explorer.exe",
+        "loc_size": {
+          "x": 0,
+          "width": 1366,
+          "y": 0,
+          "height": 768
+        },
+        "test": "Progman",
+        "title": "Program Manager",
+        "class": "Progman"
+      }
+    }
+  },
+  "2020-05-05T16:47:53.509826200": {
+    "Monitor": {
+      "quantity": 1,
+      "details": {
+        "name": "native@0x10001",
+        "screen": "[(0,0)(1366,768)]",
+        "work_area": "[(0,0)(1366,738)]",
+        "device": "\\\\.\\DISPLAY1",
+        "primary": true
+      },
+      "primary": {
+        "name": "native@0x10001",
+        "screen": "[(0,0)(1366,768)]",
+        "work_area": "[(0,0)(1366,738)]",
+        "device": "\\\\.\\DISPLAY1",
+        "primary": true
+      }
+    },
+    "Windows": {
+      "all": {
+        "43760": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "45972": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "41464": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "19112": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "21208": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "23832": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "19280": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "31764": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "23252": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "34848": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "9808": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "12104": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        },
+        "33748": {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 1366,
+            "y": 0,
+            "height": 768
+          },
+          "test": "Progman",
+          "title": "Program Manager",
+          "class": "Progman"
+        }
+      },
+      "active": {
+        "duration": 0.0,
+        "file_path": "C:\\Windows\\explorer.exe",
+        "loc_size": {
+          "x": 0,
+          "width": 1366,
+          "y": 0,
+          "height": 768
+        },
+        "test": "Progman",
         "title": "Program Manager",
         "class": "Progman"
       }
