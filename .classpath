@@ -6,9 +6,9 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/User/Downloads/jna-5.5.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/User/Downloads/jna-platform-5.5.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/User/Downloads/json-simple-1.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/User/Downloads/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="E:/ToHDD/jars/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="E:/ToHDD/jars/jna-5.5.0.jar"/>
+	<classpathentry kind="lib" path="E:/ToHDD/jars/jna-platform-5.5.0.jar"/>
+	<classpathentry kind="lib" path="E:/ToHDD/jars/json-simple-1.1.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

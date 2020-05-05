@@ -28,7 +28,9 @@ import db.Monitor;
 import db.Window;
 
 public class Main extends TimerTask {
-	
+	//limit var: time after which it shoud send a POST request
+	public final long t = 3 * 60 * 1000; // time in milliseconds
+	public final long limit = (long) t / TimeIt.period; //limit value of "calls" variable
 	// keeping track of time:
 	//when calls reaches 60, means 3 mins have elapsed and time for POST request
 	static int calls = 0;
@@ -192,12 +194,20 @@ public class Main extends TimerTask {
 		String key = LocalDateTime.now().toString();
 		json.put(key, details);
 		
-		try (FileWriter fw = new FileWriter("info.json")) {
-			fw.write(pretty(json));
-			fw.flush();
-		}
-		catch (IOException e) {
-			e.printStackTrace();
+		if (calls == limit) {
+			// Writing to File
+			try (FileWriter fw = new FileWriter("info.json")) {
+				fw.write(pretty(json));
+				fw.flush();
+			}
+			catch (IOException e) {
+				e.printStackTrace();
+			}
+			
+			// Reset JSONObjects and timer for next period
+			json.clear();
+			calls = 0;
+			System.out.println("Call Reset\n\n");
 		}
 	}
 }
