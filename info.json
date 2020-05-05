@@ -1,5 +1,5 @@
 {
-  "2020-05-05T16:47:48.709831400": {
+  "2020-05-05T20:54:40.110649200": {
     "Monitor": {
       "quantity": 1,
       "details": {
@@ -18,164 +18,229 @@
       }
     },
     "Windows": {
-      "all": {
-        "43760": {
+      "all": [
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Program Files\\Synaptics\\SynTP\\SynTPEnh.exe",
           "loc_size": {
             "x": 0,
-            "width": 1366,
+            "width": 0,
             "y": 0,
-            "height": 768
+            "height": 0
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 19112,
+          "title": "",
+          "class": "SynTrackCursorWindowClass"
         },
-        "45972": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Program Files\\Java\\jdk-10.0.1\\bin\\javaw.exe",
           "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
+            "x": -8,
+            "width": 1382,
+            "y": -8,
+            "height": 754
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 13808,
+          "title": "JAVA - WindowTracker/src/wintrack/Main.java - Eclipse IDE",
+          "class": "SWT_Window0"
         },
-        "41464": {
+        {
           "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
             "width": 1366,
-            "y": 0,
-            "height": 768
+            "y": 738,
+            "height": 30
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 43760,
+          "title": "",
+          "class": "Shell_TrayWnd"
         },
-        "19112": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Users\\User\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
           "loc_size": {
             "x": 0,
-            "width": 1366,
+            "width": 0,
             "y": 0,
-            "height": 768
+            "height": 0
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 24024,
+          "title": "ZPToolBarParentWnd",
+          "class": "ZPToolBarParentWndClass"
         },
-        "21208": {
+        {
           "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
+            "x": -8,
+            "width": 1382,
+            "y": -8,
+            "height": 754
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 48088,
+          "title": "wintrack",
+          "class": "CabinetWClass"
         },
-        "23832": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Program Files\\Notepad++\\notepad++.exe",
           "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
+            "x": -8,
+            "width": 1382,
+            "y": -8,
+            "height": 754
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 31212,
+          "title": "C:\\Users\\User\\eclipse-workspace\\JAVA\\WindowTracker\\info.json - Notepad++",
+          "class": "Notepad++"
         },
-        "19280": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
           "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
+            "x": -8,
+            "width": 1382,
+            "y": -8,
+            "height": 754
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 16276,
+          "title": "Reading and Writing JSON in Java and 3 more pages - Personal - Microsoft? Edge",
+          "class": "Chrome_WidgetWin_1"
         },
-        "31764": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Users\\User\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
           "loc_size": {
             "x": 0,
-            "width": 1366,
+            "width": 0,
             "y": 0,
-            "height": 768
+            "height": 0
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 24024,
+          "title": "",
+          "class": "zoom_acc_notify_wnd"
         },
-        "23252": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Users\\User\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
           "loc_size": {
             "x": 0,
-            "width": 1366,
+            "width": 0,
             "y": 0,
-            "height": 768
+            "height": 0
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 33748,
+          "title": "",
+          "class": "zoom_acc_notify_wnd"
         },
-        "34848": {
+        {
           "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
             "width": 1366,
             "y": 0,
-            "height": 768
+            "height": 738
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 21208,
+          "title": "",
+          "class": "ApplicationFrameWindow"
         },
-        "9808": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Windows\\SystemApps\\InputApp_cw5n1h2txyewy\\WindowsInternal.ComposableShell.Experiences.TextInput.InputApp.exe",
           "loc_size": {
             "x": 0,
             "width": 1366,
             "y": 0,
             "height": 768
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 34848,
+          "title": "Microsoft Text Input Application",
+          "class": "Windows.UI.Core.CoreWindow"
         },
-        "12104": {
+        {
           "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
-            "width": 1366,
+            "width": 0,
             "y": 0,
-            "height": 768
+            "height": 0
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 23252,
+          "title": "",
+          "class": "DummyDWMListenerWindow"
         },
-        "33748": {
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 15,
+            "width": 1351,
+            "y": 0,
+            "height": 4
+          },
+          "pid": 23252,
+          "title": "",
+          "class": "EdgeUiInputTopWndClass"
+        },
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 0,
+            "y": 0,
+            "height": 0
+          },
+          "pid": 23252,
+          "title": "",
+          "class": "DummyDWMListenerWindow"
+        },
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 0,
+            "y": 0,
+            "height": 0
+          },
+          "pid": 23252,
+          "title": "",
+          "class": "DummyDWMListenerWindow"
+        },
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Users\\User\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 0,
+            "y": 0,
+            "height": 0
+          },
+          "pid": 33748,
+          "title": "",
+          "class": "zoom_pt_notification_app_bar_wnd"
+        },
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Program Files\\Java\\jdk-10.0.1\\bin\\javaw.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 0,
+            "y": 0,
+            "height": 0
+          },
+          "pid": 13808,
+          "title": "",
+          "class": "Internet Explorer_Hidden"
+        },
+        {
           "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
@@ -184,27 +249,27 @@
             "y": 0,
             "height": 768
           },
-          "test": "Progman",
+          "pid": 41464,
           "title": "Program Manager",
           "class": "Progman"
         }
-      },
+      ],
       "active": {
         "duration": 0.0,
-        "file_path": "C:\\Windows\\explorer.exe",
+        "file_path": "C:\\Program Files\\Java\\jdk-10.0.1\\bin\\javaw.exe",
         "loc_size": {
-          "x": 0,
-          "width": 1366,
-          "y": 0,
-          "height": 768
+          "x": -8,
+          "width": 1382,
+          "y": -8,
+          "height": 754
         },
-        "test": "Progman",
-        "title": "Program Manager",
-        "class": "Progman"
+        "pid": 13808,
+        "title": "JAVA - WindowTracker/src/wintrack/Main.java - Eclipse IDE",
+        "class": "SWT_Window0"
       }
     }
   },
-  "2020-05-05T16:47:56.509826300": {
+  "2020-05-05T20:54:34.111651800": {
     "Monitor": {
       "quantity": 1,
       "details": {
@@ -223,164 +288,229 @@
       }
     },
     "Windows": {
-      "all": {
-        "43760": {
+      "all": [
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Program Files\\Synaptics\\SynTP\\SynTPEnh.exe",
           "loc_size": {
             "x": 0,
-            "width": 1366,
+            "width": 0,
             "y": 0,
-            "height": 768
+            "height": 0
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 19112,
+          "title": "",
+          "class": "SynTrackCursorWindowClass"
         },
-        "45972": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Program Files\\Java\\jdk-10.0.1\\bin\\javaw.exe",
           "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
+            "x": -8,
+            "width": 1382,
+            "y": -8,
+            "height": 754
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 13808,
+          "title": "JAVA - WindowTracker/src/wintrack/Main.java - Eclipse IDE",
+          "class": "SWT_Window0"
         },
-        "41464": {
+        {
           "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
             "width": 1366,
-            "y": 0,
-            "height": 768
+            "y": 738,
+            "height": 30
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 43760,
+          "title": "",
+          "class": "Shell_TrayWnd"
         },
-        "19112": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Users\\User\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
           "loc_size": {
             "x": 0,
-            "width": 1366,
+            "width": 0,
             "y": 0,
-            "height": 768
+            "height": 0
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 24024,
+          "title": "ZPToolBarParentWnd",
+          "class": "ZPToolBarParentWndClass"
         },
-        "21208": {
+        {
           "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
+            "x": -8,
+            "width": 1382,
+            "y": -8,
+            "height": 754
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 48088,
+          "title": "wintrack",
+          "class": "CabinetWClass"
         },
-        "23832": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Program Files\\Notepad++\\notepad++.exe",
           "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
+            "x": -8,
+            "width": 1382,
+            "y": -8,
+            "height": 754
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 31212,
+          "title": "C:\\Users\\User\\eclipse-workspace\\JAVA\\WindowTracker\\info.json - Notepad++",
+          "class": "Notepad++"
         },
-        "19280": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
           "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
+            "x": -8,
+            "width": 1382,
+            "y": -8,
+            "height": 754
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 16276,
+          "title": "Reading and Writing JSON in Java and 3 more pages - Personal - Microsoft? Edge",
+          "class": "Chrome_WidgetWin_1"
         },
-        "31764": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Users\\User\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
           "loc_size": {
             "x": 0,
-            "width": 1366,
+            "width": 0,
             "y": 0,
-            "height": 768
+            "height": 0
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 24024,
+          "title": "",
+          "class": "zoom_acc_notify_wnd"
         },
-        "23252": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Users\\User\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
           "loc_size": {
             "x": 0,
-            "width": 1366,
+            "width": 0,
             "y": 0,
-            "height": 768
+            "height": 0
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 33748,
+          "title": "",
+          "class": "zoom_acc_notify_wnd"
         },
-        "34848": {
+        {
           "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
             "width": 1366,
             "y": 0,
-            "height": 768
+            "height": 738
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 21208,
+          "title": "",
+          "class": "ApplicationFrameWindow"
         },
-        "9808": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Windows\\SystemApps\\InputApp_cw5n1h2txyewy\\WindowsInternal.ComposableShell.Experiences.TextInput.InputApp.exe",
           "loc_size": {
             "x": 0,
             "width": 1366,
             "y": 0,
             "height": 768
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 34848,
+          "title": "Microsoft Text Input Application",
+          "class": "Windows.UI.Core.CoreWindow"
         },
-        "12104": {
+        {
           "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
-            "width": 1366,
+            "width": 0,
             "y": 0,
-            "height": 768
+            "height": 0
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 23252,
+          "title": "",
+          "class": "DummyDWMListenerWindow"
         },
-        "33748": {
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 15,
+            "width": 1351,
+            "y": 0,
+            "height": 4
+          },
+          "pid": 23252,
+          "title": "",
+          "class": "EdgeUiInputTopWndClass"
+        },
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 0,
+            "y": 0,
+            "height": 0
+          },
+          "pid": 23252,
+          "title": "",
+          "class": "DummyDWMListenerWindow"
+        },
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 0,
+            "y": 0,
+            "height": 0
+          },
+          "pid": 23252,
+          "title": "",
+          "class": "DummyDWMListenerWindow"
+        },
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Users\\User\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 0,
+            "y": 0,
+            "height": 0
+          },
+          "pid": 33748,
+          "title": "",
+          "class": "zoom_pt_notification_app_bar_wnd"
+        },
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Program Files\\Java\\jdk-10.0.1\\bin\\javaw.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 0,
+            "y": 0,
+            "height": 0
+          },
+          "pid": 13808,
+          "title": "",
+          "class": "Internet Explorer_Hidden"
+        },
+        {
           "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
@@ -389,27 +519,27 @@
             "y": 0,
             "height": 768
           },
-          "test": "Progman",
+          "pid": 41464,
           "title": "Program Manager",
           "class": "Progman"
         }
-      },
+      ],
       "active": {
         "duration": 0.0,
-        "file_path": "C:\\Windows\\explorer.exe",
+        "file_path": "C:\\Program Files\\Java\\jdk-10.0.1\\bin\\javaw.exe",
         "loc_size": {
-          "x": 0,
-          "width": 1366,
-          "y": 0,
-          "height": 768
+          "x": -8,
+          "width": 1382,
+          "y": -8,
+          "height": 754
         },
-        "test": "Progman",
-        "title": "Program Manager",
-        "class": "Progman"
+        "pid": 13808,
+        "title": "JAVA - WindowTracker/src/wintrack/Main.java - Eclipse IDE",
+        "class": "SWT_Window0"
       }
     }
   },
-  "2020-05-05T16:47:59.510829700": {
+  "2020-05-05T20:54:31.113648300": {
     "Monitor": {
       "quantity": 1,
       "details": {
@@ -428,164 +558,242 @@
       }
     },
     "Windows": {
-      "all": {
-        "43760": {
+      "all": [
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Program Files\\Synaptics\\SynTP\\SynTPEnh.exe",
           "loc_size": {
             "x": 0,
-            "width": 1366,
+            "width": 0,
             "y": 0,
-            "height": 768
+            "height": 0
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 19112,
+          "title": "",
+          "class": "SynTrackCursorWindowClass"
         },
-        "45972": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Program Files\\Java\\jdk-10.0.1\\bin\\javaw.exe",
           "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
+            "x": 582,
+            "width": 231,
+            "y": 398,
+            "height": 78
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 13808,
+          "title": "",
+          "class": "SWT_WindowShadow0"
         },
-        "41464": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Program Files\\Java\\jdk-10.0.1\\bin\\javaw.exe",
           "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
+            "x": -8,
+            "width": 1382,
+            "y": -8,
+            "height": 754
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 13808,
+          "title": "JAVA - WindowTracker/src/wintrack/Main.java - Eclipse IDE",
+          "class": "SWT_Window0"
         },
-        "19112": {
+        {
           "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
             "width": 1366,
-            "y": 0,
-            "height": 768
+            "y": 738,
+            "height": 30
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 43760,
+          "title": "",
+          "class": "Shell_TrayWnd"
         },
-        "21208": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Users\\User\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
           "loc_size": {
             "x": 0,
-            "width": 1366,
+            "width": 0,
             "y": 0,
-            "height": 768
+            "height": 0
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 24024,
+          "title": "ZPToolBarParentWnd",
+          "class": "ZPToolBarParentWndClass"
         },
-        "23832": {
+        {
           "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
+            "x": -8,
+            "width": 1382,
+            "y": -8,
+            "height": 754
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 48088,
+          "title": "wintrack",
+          "class": "CabinetWClass"
         },
-        "19280": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Program Files\\Notepad++\\notepad++.exe",
           "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
+            "x": -8,
+            "width": 1382,
+            "y": -8,
+            "height": 754
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 31212,
+          "title": "C:\\Users\\User\\eclipse-workspace\\JAVA\\WindowTracker\\info.json - Notepad++",
+          "class": "Notepad++"
         },
-        "31764": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
           "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
+            "x": -8,
+            "width": 1382,
+            "y": -8,
+            "height": 754
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 16276,
+          "title": "Reading and Writing JSON in Java and 3 more pages - Personal - Microsoft? Edge",
+          "class": "Chrome_WidgetWin_1"
         },
-        "23252": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Users\\User\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
           "loc_size": {
             "x": 0,
-            "width": 1366,
+            "width": 0,
             "y": 0,
-            "height": 768
+            "height": 0
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 24024,
+          "title": "",
+          "class": "zoom_acc_notify_wnd"
         },
-        "34848": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Users\\User\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
           "loc_size": {
             "x": 0,
-            "width": 1366,
+            "width": 0,
             "y": 0,
-            "height": 768
+            "height": 0
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 33748,
+          "title": "",
+          "class": "zoom_acc_notify_wnd"
         },
-        "9808": {
+        {
           "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
             "width": 1366,
             "y": 0,
-            "height": 768
+            "height": 738
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 21208,
+          "title": "",
+          "class": "ApplicationFrameWindow"
         },
-        "12104": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Windows\\SystemApps\\InputApp_cw5n1h2txyewy\\WindowsInternal.ComposableShell.Experiences.TextInput.InputApp.exe",
           "loc_size": {
             "x": 0,
             "width": 1366,
             "y": 0,
             "height": 768
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 34848,
+          "title": "Microsoft Text Input Application",
+          "class": "Windows.UI.Core.CoreWindow"
         },
-        "33748": {
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 0,
+            "y": 0,
+            "height": 0
+          },
+          "pid": 23252,
+          "title": "",
+          "class": "DummyDWMListenerWindow"
+        },
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 15,
+            "width": 1351,
+            "y": 0,
+            "height": 4
+          },
+          "pid": 23252,
+          "title": "",
+          "class": "EdgeUiInputTopWndClass"
+        },
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 0,
+            "y": 0,
+            "height": 0
+          },
+          "pid": 23252,
+          "title": "",
+          "class": "DummyDWMListenerWindow"
+        },
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 0,
+            "y": 0,
+            "height": 0
+          },
+          "pid": 23252,
+          "title": "",
+          "class": "DummyDWMListenerWindow"
+        },
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Users\\User\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 0,
+            "y": 0,
+            "height": 0
+          },
+          "pid": 33748,
+          "title": "",
+          "class": "zoom_pt_notification_app_bar_wnd"
+        },
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Program Files\\Java\\jdk-10.0.1\\bin\\javaw.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 0,
+            "y": 0,
+            "height": 0
+          },
+          "pid": 13808,
+          "title": "",
+          "class": "Internet Explorer_Hidden"
+        },
+        {
           "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
@@ -594,27 +802,27 @@
             "y": 0,
             "height": 768
           },
-          "test": "Progman",
+          "pid": 41464,
           "title": "Program Manager",
           "class": "Progman"
         }
-      },
+      ],
       "active": {
         "duration": 0.0,
-        "file_path": "C:\\Windows\\explorer.exe",
+        "file_path": "C:\\Program Files\\Java\\jdk-10.0.1\\bin\\javaw.exe",
         "loc_size": {
-          "x": 0,
-          "width": 1366,
-          "y": 0,
-          "height": 768
+          "x": -8,
+          "width": 1382,
+          "y": -8,
+          "height": 754
         },
-        "test": "Progman",
-        "title": "Program Manager",
-        "class": "Progman"
+        "pid": 13808,
+        "title": "JAVA - WindowTracker/src/wintrack/Main.java - Eclipse IDE",
+        "class": "SWT_Window0"
       }
     }
   },
-  "2020-05-05T16:47:50.512825500": {
+  "2020-05-05T20:54:29.618651200": {
     "Monitor": {
       "quantity": 1,
       "details": {
@@ -633,164 +841,229 @@
       }
     },
     "Windows": {
-      "all": {
-        "43760": {
+      "all": [
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Program Files\\Synaptics\\SynTP\\SynTPEnh.exe",
           "loc_size": {
             "x": 0,
-            "width": 1366,
+            "width": 0,
             "y": 0,
-            "height": 768
+            "height": 0
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 19112,
+          "title": "",
+          "class": "SynTrackCursorWindowClass"
         },
-        "45972": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Program Files\\Java\\jdk-10.0.1\\bin\\javaw.exe",
           "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
+            "x": -8,
+            "width": 1382,
+            "y": -8,
+            "height": 754
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 13808,
+          "title": "JAVA - WindowTracker/src/wintrack/Main.java - Eclipse IDE",
+          "class": "SWT_Window0"
         },
-        "41464": {
+        {
           "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
             "width": 1366,
-            "y": 0,
-            "height": 768
+            "y": 738,
+            "height": 30
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 43760,
+          "title": "",
+          "class": "Shell_TrayWnd"
         },
-        "19112": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Users\\User\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
           "loc_size": {
             "x": 0,
-            "width": 1366,
+            "width": 0,
             "y": 0,
-            "height": 768
+            "height": 0
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 24024,
+          "title": "ZPToolBarParentWnd",
+          "class": "ZPToolBarParentWndClass"
         },
-        "21208": {
+        {
           "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
+            "x": -8,
+            "width": 1382,
+            "y": -8,
+            "height": 754
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 48088,
+          "title": "wintrack",
+          "class": "CabinetWClass"
         },
-        "23832": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Program Files\\Notepad++\\notepad++.exe",
           "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
+            "x": -8,
+            "width": 1382,
+            "y": -8,
+            "height": 754
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 31212,
+          "title": "C:\\Users\\User\\eclipse-workspace\\JAVA\\WindowTracker\\info.json - Notepad++",
+          "class": "Notepad++"
         },
-        "19280": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
           "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
+            "x": -8,
+            "width": 1382,
+            "y": -8,
+            "height": 754
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 16276,
+          "title": "Reading and Writing JSON in Java and 3 more pages - Personal - Microsoft? Edge",
+          "class": "Chrome_WidgetWin_1"
         },
-        "31764": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Users\\User\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
           "loc_size": {
             "x": 0,
-            "width": 1366,
+            "width": 0,
             "y": 0,
-            "height": 768
+            "height": 0
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 24024,
+          "title": "",
+          "class": "zoom_acc_notify_wnd"
         },
-        "23252": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Users\\User\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
           "loc_size": {
             "x": 0,
-            "width": 1366,
+            "width": 0,
             "y": 0,
-            "height": 768
+            "height": 0
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 33748,
+          "title": "",
+          "class": "zoom_acc_notify_wnd"
         },
-        "34848": {
+        {
           "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
             "width": 1366,
             "y": 0,
-            "height": 768
+            "height": 738
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 21208,
+          "title": "",
+          "class": "ApplicationFrameWindow"
         },
-        "9808": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Windows\\SystemApps\\InputApp_cw5n1h2txyewy\\WindowsInternal.ComposableShell.Experiences.TextInput.InputApp.exe",
           "loc_size": {
             "x": 0,
             "width": 1366,
             "y": 0,
             "height": 768
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 34848,
+          "title": "Microsoft Text Input Application",
+          "class": "Windows.UI.Core.CoreWindow"
         },
-        "12104": {
+        {
           "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
-            "width": 1366,
+            "width": 0,
             "y": 0,
-            "height": 768
+            "height": 0
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 23252,
+          "title": "",
+          "class": "DummyDWMListenerWindow"
         },
-        "33748": {
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 15,
+            "width": 1351,
+            "y": 0,
+            "height": 4
+          },
+          "pid": 23252,
+          "title": "",
+          "class": "EdgeUiInputTopWndClass"
+        },
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 0,
+            "y": 0,
+            "height": 0
+          },
+          "pid": 23252,
+          "title": "",
+          "class": "DummyDWMListenerWindow"
+        },
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 0,
+            "y": 0,
+            "height": 0
+          },
+          "pid": 23252,
+          "title": "",
+          "class": "DummyDWMListenerWindow"
+        },
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Users\\User\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 0,
+            "y": 0,
+            "height": 0
+          },
+          "pid": 33748,
+          "title": "",
+          "class": "zoom_pt_notification_app_bar_wnd"
+        },
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Program Files\\Java\\jdk-10.0.1\\bin\\javaw.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 0,
+            "y": 0,
+            "height": 0
+          },
+          "pid": 13808,
+          "title": "",
+          "class": "Internet Explorer_Hidden"
+        },
+        {
           "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
@@ -799,27 +1072,27 @@
             "y": 0,
             "height": 768
           },
-          "test": "Progman",
+          "pid": 41464,
           "title": "Program Manager",
           "class": "Progman"
         }
-      },
+      ],
       "active": {
         "duration": 0.0,
-        "file_path": "C:\\Windows\\explorer.exe",
+        "file_path": "C:\\Program Files\\Java\\jdk-10.0.1\\bin\\javaw.exe",
         "loc_size": {
-          "x": 0,
-          "width": 1366,
-          "y": 0,
-          "height": 768
+          "x": -8,
+          "width": 1382,
+          "y": -8,
+          "height": 754
         },
-        "test": "Progman",
-        "title": "Program Manager",
-        "class": "Progman"
+        "pid": 13808,
+        "title": "JAVA - WindowTracker/src/wintrack/Main.java - Eclipse IDE",
+        "class": "SWT_Window0"
       }
     }
   },
-  "2020-05-05T16:47:53.509826200": {
+  "2020-05-05T20:54:37.110649500": {
     "Monitor": {
       "quantity": 1,
       "details": {
@@ -838,164 +1111,229 @@
       }
     },
     "Windows": {
-      "all": {
-        "43760": {
+      "all": [
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Program Files\\Synaptics\\SynTP\\SynTPEnh.exe",
           "loc_size": {
             "x": 0,
-            "width": 1366,
+            "width": 0,
             "y": 0,
-            "height": 768
+            "height": 0
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 19112,
+          "title": "",
+          "class": "SynTrackCursorWindowClass"
         },
-        "45972": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Program Files\\Java\\jdk-10.0.1\\bin\\javaw.exe",
           "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
+            "x": -8,
+            "width": 1382,
+            "y": -8,
+            "height": 754
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 13808,
+          "title": "JAVA - WindowTracker/src/wintrack/Main.java - Eclipse IDE",
+          "class": "SWT_Window0"
         },
-        "41464": {
+        {
           "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
             "width": 1366,
-            "y": 0,
-            "height": 768
+            "y": 738,
+            "height": 30
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 43760,
+          "title": "",
+          "class": "Shell_TrayWnd"
         },
-        "19112": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Users\\User\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
           "loc_size": {
             "x": 0,
-            "width": 1366,
+            "width": 0,
             "y": 0,
-            "height": 768
+            "height": 0
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 24024,
+          "title": "ZPToolBarParentWnd",
+          "class": "ZPToolBarParentWndClass"
         },
-        "21208": {
+        {
           "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
+            "x": -8,
+            "width": 1382,
+            "y": -8,
+            "height": 754
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 48088,
+          "title": "wintrack",
+          "class": "CabinetWClass"
         },
-        "23832": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Program Files\\Notepad++\\notepad++.exe",
           "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
+            "x": -8,
+            "width": 1382,
+            "y": -8,
+            "height": 754
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 31212,
+          "title": "C:\\Users\\User\\eclipse-workspace\\JAVA\\WindowTracker\\info.json - Notepad++",
+          "class": "Notepad++"
         },
-        "19280": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
           "loc_size": {
-            "x": 0,
-            "width": 1366,
-            "y": 0,
-            "height": 768
+            "x": -8,
+            "width": 1382,
+            "y": -8,
+            "height": 754
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 16276,
+          "title": "Reading and Writing JSON in Java and 3 more pages - Personal - Microsoft? Edge",
+          "class": "Chrome_WidgetWin_1"
         },
-        "31764": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Users\\User\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
           "loc_size": {
             "x": 0,
-            "width": 1366,
+            "width": 0,
             "y": 0,
-            "height": 768
+            "height": 0
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 24024,
+          "title": "",
+          "class": "zoom_acc_notify_wnd"
         },
-        "23252": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Users\\User\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
           "loc_size": {
             "x": 0,
-            "width": 1366,
+            "width": 0,
             "y": 0,
-            "height": 768
+            "height": 0
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 33748,
+          "title": "",
+          "class": "zoom_acc_notify_wnd"
         },
-        "34848": {
+        {
           "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
             "width": 1366,
             "y": 0,
-            "height": 768
+            "height": 738
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 21208,
+          "title": "",
+          "class": "ApplicationFrameWindow"
         },
-        "9808": {
+        {
           "duration": 0.0,
-          "file_path": "C:\\Windows\\explorer.exe",
+          "file_path": "C:\\Windows\\SystemApps\\InputApp_cw5n1h2txyewy\\WindowsInternal.ComposableShell.Experiences.TextInput.InputApp.exe",
           "loc_size": {
             "x": 0,
             "width": 1366,
             "y": 0,
             "height": 768
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 34848,
+          "title": "Microsoft Text Input Application",
+          "class": "Windows.UI.Core.CoreWindow"
         },
-        "12104": {
+        {
           "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
             "x": 0,
-            "width": 1366,
+            "width": 0,
             "y": 0,
-            "height": 768
+            "height": 0
           },
-          "test": "Progman",
-          "title": "Program Manager",
-          "class": "Progman"
+          "pid": 23252,
+          "title": "",
+          "class": "DummyDWMListenerWindow"
         },
-        "33748": {
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 15,
+            "width": 1351,
+            "y": 0,
+            "height": 4
+          },
+          "pid": 23252,
+          "title": "",
+          "class": "EdgeUiInputTopWndClass"
+        },
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 0,
+            "y": 0,
+            "height": 0
+          },
+          "pid": 23252,
+          "title": "",
+          "class": "DummyDWMListenerWindow"
+        },
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Windows\\explorer.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 0,
+            "y": 0,
+            "height": 0
+          },
+          "pid": 23252,
+          "title": "",
+          "class": "DummyDWMListenerWindow"
+        },
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Users\\User\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 0,
+            "y": 0,
+            "height": 0
+          },
+          "pid": 33748,
+          "title": "",
+          "class": "zoom_pt_notification_app_bar_wnd"
+        },
+        {
+          "duration": 0.0,
+          "file_path": "C:\\Program Files\\Java\\jdk-10.0.1\\bin\\javaw.exe",
+          "loc_size": {
+            "x": 0,
+            "width": 0,
+            "y": 0,
+            "height": 0
+          },
+          "pid": 13808,
+          "title": "",
+          "class": "Internet Explorer_Hidden"
+        },
+        {
           "duration": 0.0,
           "file_path": "C:\\Windows\\explorer.exe",
           "loc_size": {
@@ -1004,23 +1342,23 @@
             "y": 0,
             "height": 768
           },
-          "test": "Progman",
+          "pid": 41464,
           "title": "Program Manager",
           "class": "Progman"
         }
-      },
+      ],
       "active": {
         "duration": 0.0,
-        "file_path": "C:\\Windows\\explorer.exe",
+        "file_path": "C:\\Program Files\\Java\\jdk-10.0.1\\bin\\javaw.exe",
         "loc_size": {
-          "x": 0,
-          "width": 1366,
-          "y": 0,
-          "height": 768
+          "x": -8,
+          "width": 1382,
+          "y": -8,
+          "height": 754
         },
-        "test": "Progman",
-        "title": "Program Manager",
-        "class": "Progman"
+        "pid": 13808,
+        "title": "JAVA - WindowTracker/src/wintrack/Main.java - Eclipse IDE",
+        "class": "SWT_Window0"
       }
     }
   }

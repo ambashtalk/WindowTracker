@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.TimerTask;
 
+import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -150,16 +151,19 @@ public class Main extends TimerTask {
 	
 	@SuppressWarnings("unchecked")
 	static JSONObject getWindowJson(List<Window> win) {
-		JSONObject details = new JSONObject();
-		JSONObject detail_entry = new JSONObject();
+		JSONArray details = new JSONArray();
 		JSONObject active_win = new JSONObject();
-		JSONObject loc = new JSONObject();
 		for (Window w: win) {
+
+			JSONObject detail_entry = new JSONObject();
+			JSONObject loc = new JSONObject();
+
 			String s = w.getclass();
-			System.out.println(s);
+//			System.out.println(s);
 			detail_entry.clear();
 			loc.clear();
 //			detail_entry.compute("test", (k,v) -> (v==null) ? w.getclass() : "none");
+			detail_entry.put("pid", w.getPID());
 			detail_entry.put("title", w.getWinTitle());
 			detail_entry.put("class", w.getclass());
 			detail_entry.put("file_path", w.getFilePath());
@@ -175,8 +179,8 @@ public class Main extends TimerTask {
 			if (w.isActive()) {
 				active_win = detail_entry;
 			}
-			
-			details.put(w.getPID().toString(), detail_entry);
+			details.add(detail_entry);
+//			details.put(w.getPID().toString(), detail_entry);
 		}
 		
 		JSONObject output = new JSONObject();
