@@ -51,7 +51,6 @@ public class Main extends TimerTask {
 	
 	static Monitor getMonitorDetails() {
 		Monitor monitor = new Monitor();
-//		System.out.println("Installed Physical Monitors: " + User32.INSTANCE.GetSystemMetrics(WinUser.SM_CMONITORS));
 		Monitor.Qty = User32.INSTANCE.GetSystemMetrics(WinUser.SM_CMONITORS);
 		
 		User32.INSTANCE.EnumDisplayMonitors(null, null, new MONITORENUMPROC() {
@@ -59,18 +58,12 @@ public class Main extends TimerTask {
 			@Override
 			public int apply(HMONITOR hMonitor, HDC hdc, RECT rect, LPARAM lparam) {
 
-//				System.out.println("Found HMONITOR: " + hMonitor.getPointer().toString());
 				monitor.setName(hMonitor.getPointer().toString());
 				MONITORINFOEX info = new MONITORINFOEX();
 				User32.INSTANCE.GetMonitorInfo(hMonitor, info);
-//				System.out.println("Screen " + info.rcMonitor);
 				monitor.setscreen(info.rcMonitor.toString());
-//				System.out.println("Work area " + info.rcWork);
 				monitor.setWorkArea(info.rcWork.toString());
-//				boolean isPrimary = (info.dwFlags & WinUser.MONITORINFOF_PRIMARY) != 0;
 				monitor.setPrimary((info.dwFlags & WinUser.MONITORINFOF_PRIMARY) != 0);
-//				System.out.println("Primary? " + (isPrimary ? "yes" : "no"));
-//				System.out.println("Device " + new String(info.szDevice));
 				monitor.setDevice(new String(info.szDevice).trim());
 				return 1;
 			}
@@ -89,10 +82,9 @@ public class Main extends TimerTask {
 			Window currWin = new Window();
 			
 			User32.INSTANCE.GetClassName(win.getHWND(), classText, 512);
-//			String wClass = Native.toString(classText);
+
 			currWin.setclass(Native.toString(classText));
 			
-//			int pid = User32.INSTANCE.GetWindowThreadProcessId(win.getHWND(), null);
 			currWin.setPID(User32.INSTANCE.GetWindowThreadProcessId(win.getHWND(), null));
 			
 			currWin.setActive(win.getHWND().equals(hwndActive));
@@ -112,15 +104,10 @@ public class Main extends TimerTask {
 				}
 			}
 			
-//			String fg = win.getHWND().equals(hwndActive) ? " *** " : "";
-//			String fg = ob.isActive() ? Window.MARKER : "";
-//			System.out.println("[ " + fg + win.getTitle() + " | " + pid + " | " + wClass + " ] [ " + win.getFilePath() + " ] " + win.getLocAndSize());
-//			String res = "[ " + fg + ob.getWinTitle() + " | " + ob.getPID() + " | " + ob.getclass() + " ] [ " + ob.getFilePath() + " ] " + ob.getLocSize() + "\n";
 			currWin.setFilePath(win.getFilePath().toString());
 			currWin.setWinTitle(win.getTitle().toString());
 			currWin.setLocSize(win.getLocAndSize());
 			
-//			System.out.println(ob.getLocSize().toString());
 			result.add(currWin);
 		}
 		return result;
@@ -158,11 +145,6 @@ public class Main extends TimerTask {
 			JSONObject detail_entry = new JSONObject();
 			JSONObject loc = new JSONObject();
 
-			String s = w.getclass();
-//			System.out.println(s);
-			detail_entry.clear();
-			loc.clear();
-//			detail_entry.compute("test", (k,v) -> (v==null) ? w.getclass() : "none");
 			detail_entry.put("pid", w.getPID());
 			detail_entry.put("title", w.getWinTitle());
 			detail_entry.put("class", w.getclass());
@@ -180,7 +162,6 @@ public class Main extends TimerTask {
 				active_win = detail_entry;
 			}
 			details.add(detail_entry);
-//			details.put(w.getPID().toString(), detail_entry);
 		}
 		
 		JSONObject output = new JSONObject();
@@ -210,15 +191,11 @@ public class Main extends TimerTask {
 		System.out.println("This is call number:" + calls);
 		
 		Monitor monitor = getMonitorDetails();
-//		System.out.println(monitor + "\n");
 		
 		List<Window> allWindows = getWindows();
-//		for(Window w: allWindows) {
-//			System.out.println(w);
-//		}
+
 		JSONObject details = new JSONObject();
 		details = getJSON(monitor, allWindows);
-//		System.out.print(pretty(details));
 		
 		// maintaining a static json object
 		String key = LocalDateTime.now().toString();
